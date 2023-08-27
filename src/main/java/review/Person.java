@@ -1,2 +1,4 @@
-package review;public class Person {
+package review;
+
+public class Person {
 }
