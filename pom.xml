@@ -11,6 +11,8 @@
     <modules>
         <module>generics</module>
         <module>generics</module>
+        <module>lambda</module>
+        <module>lambda</module>
     </modules>
 
     <properties>
