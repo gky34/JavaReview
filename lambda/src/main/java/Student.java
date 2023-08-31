@@ -2,9 +2,9 @@ import lombok.*;
 
 import java.util.Objects;
 
-@NoArgsConstructor @AllArgsConstructor @RequiredArgsConstructor
-@Getter @Setter @ToString
-@EqualsAndHashCode
+//@NoArgsConstructor @AllArgsConstructor @RequiredArgsConstructor
+//@Getter @Setter @ToString
+//@EqualsAndHashCode
 public class Student
 {
     private String firstName;
