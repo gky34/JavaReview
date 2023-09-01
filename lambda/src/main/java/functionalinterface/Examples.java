@@ -40,6 +40,15 @@ public class Examples
         Supplier<Double> randomValue = () -> Math.random();
         System.out.println(randomValue.get());
 
+        Predicate<Integer> pred = (p) -> p%2 == 0 ? true : false;
+        System.out.println(pred.test(10));
+
+        BiConsumer<Integer, String> bn = (x,y) -> System.out.println(x+y);
+        bn.accept(5,"apple");
+
+
+
+
     }
 
 }
@@ -48,4 +57,10 @@ public class Examples
     Predicate
     - Generics interface defines an abstract method name test that accept an object generic type of T and returns Boolean
     Accept one object and return boolean
+
+ Always find to right Interface
+ - Either we can write to interface or We can use the ready API Interface
+ - find interface and implementation of the abstract method, which is what parameter and what return type
+ signature has to match it
+
  */
