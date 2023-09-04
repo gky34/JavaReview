@@ -1,15 +1,14 @@
 import java.util.List;
 import java.util.stream.Stream;
 
-public class EmployeeTest
-{
+public class EmployeeTest {
     public static void main(String[] args) {
 
         // Print all emails - One employee has one email - One to One
         System.out.println("Print all emails");
 
         EmployeeData.readAll().map(Employee::getEmpEmail)
-                            .forEach(System.out::println);
+                .forEach(System.out::println);
 
         System.out.println("**********************");
         // Print all phone numbers
@@ -33,3 +32,5 @@ public class EmployeeTest
 
     }
 }
+
+
